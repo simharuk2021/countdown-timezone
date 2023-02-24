@@ -5,7 +5,7 @@ body {
 
   height:100vh;
   overflow: hidden;
-  -webkit-overflow-scrolling: auto; 
+ touch-action: auto; 
 
   
 }
