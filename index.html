@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time left to go (Thailand Time)</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .container { margin: 150px auto; }
+        h1 { text-align: center; margin-bottom: 2rem; color: #fff; }
+    </style>
+</head>
+
+<body>
+<img href="./img/Heart_generated.jpg" alt="Heart" src="./img/Heart_generated.jpg" class="heart">
+
+    <div class="container">
+        <h1>Time left until Bubble Tea</h1>
+        <div id="countdown" class="row justify-content-center align-items-center"></div>
+        
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/countdown.jquery.js"></script>
+    <script>
+        const cd = new Date().getFullYear() 
+        $('#countdown').countdown({
+            year: cd
+        });
+    </script>
+</body>
+<!-- <script type="text/javascript">
+
+//   var _gaq = _gaq || [];
+//   _gaq.push(['_setAccount', 'UA-36251023-1']);
+//   _gaq.push(['_setDomainName', 'jqueryscript.net']);
+//   _gaq.push(['_trackPageview']);
+
+//   (function() {
+//     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+//     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+//     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+//   })();
+
+</script> -->
+</html>

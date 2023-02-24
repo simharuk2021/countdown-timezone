@@ -1,0 +1,15 @@
+{
+    "name": "developer/coming-soon",
+    "description": "A countdown timer",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^4.3",
+        "components/jquery": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Jake Petty",
+            "email": "support@vexcon.net"
+        }
+    ]
+}
