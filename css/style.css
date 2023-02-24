@@ -14,12 +14,13 @@ body {
 }
 .time {
   color: #fff;
-  font-size: 6em;
+  font-size: 4em;
   font-weight: bold;
   background-color: #511241;
   opacity: 0.8;
   border-radius: 50%;
   padding:1rem;
+
 }
 .label {
   font-size: 2em;
@@ -50,7 +51,6 @@ img{
   margin-bottom: 0px !important;
   background-color: #c85eae;
   height: 100vh;
-  scroll-behavior: none;
   padding:1rem;
   max-width: 100% !important;
 
